@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="446bfb69-a539-4368-b1ac-e46f1eb73a96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/dupa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinScripting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_openjfx_javafx_base_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_openjfx_javafx_base_win_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_openjfx_javafx_controls_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_openjfx_javafx_controls_win_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_openjfx_javafx_fxml_win_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_openjfx_javafx_graphics_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_openjfx_javafx_graphics_win_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/cardgame.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/cardgame.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/TurnPhase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cardgame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cardgame.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/CardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/model/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/model/TurnPhase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Archangel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Archangel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Basilisk.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Basilisk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Centaurus.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Centaurus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Cerber.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Cerber.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Chimera.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Chimera.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Demon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Demon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Devil.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Devil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Dragon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Dragon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Dwarf.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Dwarf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Emperor.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Emperor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Gargoyle.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Gargoyle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Giant.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Giant.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Gorgon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Gorgon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Griffin.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Griffin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Harpy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Harpy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Hellhound.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Hellhound.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Minotaur.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Minotaur.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Odin.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Odin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Siren.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Siren.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/Zeus.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/Zeus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/bgimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/bgimage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/blueCard.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/blueCard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/deck1.cd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/deck1.cd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/redCard.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/redCard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/resources/cards/sampleCard.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cards/sampleCard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/view/BattleBoard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/BattleBoard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/view/BattleBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/BattleBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/view/RootLayout.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/RootLayout.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/view/RootLayoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/RootLayoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CardGame/view/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/CardGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/model/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/model/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/model/TurnPhase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Archangel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Basilisk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Centaurus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Cerber.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Chimera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Demon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Devil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Dwarf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Emperor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Gargoyle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Giant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Gorgon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Griffin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Harpy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Hellhound.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Minotaur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Odin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Siren.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/Zeus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/bgimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/blueCard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/deck1.cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/redCard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/resources/cards/sampleCard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/view/BattleBoard.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/view/BattleBoardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/view/RootLayout.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/view/RootLayoutController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/CardGame/view/style.css" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cardgame" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cardgame" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cardgame" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cardgame" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/CardGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="136" column="39" lean-forward="true" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#14149#14150#0" expanded="true" />
+                <element signature="e#14173#14174#0" expanded="true" />
+                <element signature="e#14212#14213#0" expanded="true" />
+                <element signature="e#14236#14237#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1740">
+              <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3530#3531#0" expanded="true" />
+                <element signature="e#3563#3564#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/view/BattleBoard.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/view/RootLayout.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="15" column="93" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/RootLayoutController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-31">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/BattleBoardController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/Card.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="162" column="13" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Gradle Kotlin DSL Build Script" />
+        <option value="Gradle Kotlin DSL Settings" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>controller</find>
+      <find>rootCo</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cardgame.iml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/TurnPhase.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle.kts" />
+        <option value="$PROJECT_DIR$/build.gradle.kts" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/BattleBoardController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/RootLayoutController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/Card.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/view/BattleBoard.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/CardGame.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cardgame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardgame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardgame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardgame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardgame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardgame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardgame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardgame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cardgame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cardgame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cardgame" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dupa\Projects\cardgame\src\main\resources\view" />
+      <recent name="C:\Users\dupa\Projects\cardgame\src\main\resources" />
+      <recent name="C:\Users\dupa\Projects\cardgame\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.cardgame [run]">
+    <configuration name="CardGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.mesayah.cardgame.CardGame" />
+      <module name="cardgame.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.mesayah.cardgame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cardgame [clean build installDist]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+            <option value="build" />
+            <option value="installDist" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="cardgame [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="cardgame" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="cardgame" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.cardgame [clean build installDist]" />
+      <item itemvalue="Application.CardGame" />
+      <item itemvalue="Gradle.cardgame [run]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.cardgame [run]" />
+        <item itemvalue="Application.CardGame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="446bfb69-a539-4368-b1ac-e46f1eb73a96" name="Default Changelist" comment="" />
+      <created>1555418412189</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555418412189</updated>
+      <workItem from="1555418413477" duration="4997000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4997000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" visible="true" weight="0.3295302" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/CardGame.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cardgame.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cardgame.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/TurnPhase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-fxml/11.0.2/2b7bb98d32266093bd49acd8778bedb55a326c20/javafx-fxml-11.0.2-sources.jar!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="2263" column="4" selection-start-line="2263" selection-start-column="4" selection-end-line="2263" selection-end-column="4" />
+          <folding>
+            <element signature="e#87661#87662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="162" column="13" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/view/RootLayout.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="15" column="93" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/RootLayoutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/view/BattleBoard.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/BattleBoardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/install/cardgame/bin/cardgame.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3530#3531#0" expanded="true" />
+            <element signature="e#3563#3564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/mesayah/cardgame/CardGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="136" column="39" lean-forward="true" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#14149#14150#0" expanded="true" />
+            <element signature="e#14173#14174#0" expanded="true" />
+            <element signature="e#14212#14213#0" expanded="true" />
+            <element signature="e#14236#14237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cardgame</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

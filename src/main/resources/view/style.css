@@ -1,0 +1,7 @@
+#rootContainer{
+    -fx-background-image: url("../resources/cards/bgimage.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 800 600;
+    -fx-background-position: center center;
+}
+
